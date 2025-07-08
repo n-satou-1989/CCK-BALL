@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "charybdis.dtsi"
+#include "cck-ball.dtsi"
 
 &kscan0 {
 	col-gpios
-		= <&gpio0 2 GPIO_ACTIVE_HIGH>
-		, <&gpio0 29 GPIO_ACTIVE_HIGH>
-		, <&gpio0 9 GPIO_ACTIVE_HIGH>
-		, <&gpio1 0  GPIO_ACTIVE_HIGH>
-		, <&gpio0 11 GPIO_ACTIVE_HIGH>
-		, <&gpio1 4  GPIO_ACTIVE_HIGH>
+		= <&gpio1 15 GPIO_ACTIVE_HIGH>
+        , <&gpio0 9 GPIO_ACTIVE_HIGH>
+        , <&gpio0 10 GPIO_ACTIVE_HIGH>
+        , <&gpio1 11 GPIO_ACTIVE_HIGH>
+        , <&gpio1 4 GPIO_ACTIVE_HIGH>
+        , <&gpio1 6 GPIO_ACTIVE_HIGH>
 		;
 };
 
@@ -57,4 +57,9 @@
                          LED_COLOR_ID_RED
                          LED_COLOR_ID_BLUE>;
     };
+};
+
+// enable left encoder
+&left_encoder {
+	status = "okay";
 };
