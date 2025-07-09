@@ -1,7 +1,7 @@
 if SHIELD_CCK-BALL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "WEEKIN CCK BALL"
+	default "WK CCK BALL"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
