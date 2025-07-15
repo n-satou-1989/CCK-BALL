@@ -46,8 +46,8 @@
 		label = "LEFT_ENCODER";
 		a-gpios = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		resolution = 1;
-    	steps = 2;
+		resolution = <1>;
+    	steps = <2>;
     	debounce-press-ms = <10>;
 	};
 
@@ -57,8 +57,8 @@
 		label = "RIGHT_ENCODER";
 		a-gpios = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		esolution = 1;
-    	steps = 2;
+		resolution = <1>;
+    	steps = <2>;
     	debounce-press-ms = <10>;
 	};
 
