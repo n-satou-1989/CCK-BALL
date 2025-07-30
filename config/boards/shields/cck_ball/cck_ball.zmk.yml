@@ -1,6 +1,6 @@
 file_format: "1"
-id: cck-ball
-name: CCK-BALL
+id: cck_ball
+name: CCK_BALL
 type: shield
 url: https://github.com/Bastardkb/Charybdis/
 requires: [pro_micro]
@@ -9,5 +9,5 @@ features:
   - pointer
   - underglow
 siblings:
-  - cck-ball_left
-  - cck-ball_right
+  - cck_ball_left
+  - cck_ball_right

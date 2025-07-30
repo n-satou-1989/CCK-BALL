@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    cck-ball-layouts: cck-ball-layouts {
+    cck-ball-layouts: cck_ball-layouts {
         compatible = "zmk,physical-layout";
-        display-name = "CCK-Ball Wireless";
+        display-name = "CCK BALL Wireless";
 
         kscan = <&kscan0>;
         transform = <&default_transform>;
