@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    cck-ball-layouts: cck_ball-layouts {
+    cck_ball-layouts: cck_ball-layouts {
         compatible = "zmk,physical-layout";
         display-name = "CCK BALL Wireless";
 
