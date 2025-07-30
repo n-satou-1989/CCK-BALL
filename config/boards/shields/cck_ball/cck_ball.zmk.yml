@@ -8,6 +8,7 @@ features:
   - keys
   - pointer
   - underglow
+  - studio
 siblings:
   - cck_ball_left
   - cck_ball_right
