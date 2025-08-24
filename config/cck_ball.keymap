@@ -9,7 +9,8 @@
     quick-tap-ms = <150>;//按下lt后，150ms内按住不松开，就一直是单击的这个按键，而不是切层的效果。150ms以内的这个时间是关键
 };
 
- behaviors {
+/ {
+    behaviors {
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL_ENCODER";
@@ -24,8 +25,7 @@
             bindings = <&msc>, <&msc>;
         };
     };
-
-/ {
+    
     keymap {
         compatible = "zmk,keymap";
 
