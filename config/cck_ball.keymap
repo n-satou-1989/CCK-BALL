@@ -106,7 +106,7 @@ msc_rotate: msc_rotate {
             >;
 
             sensor-bindings =
-                <&msc_rotate SCRL_UP SCRL_DOWN>;
+                <&msc_rotate SCRL_UP SCRL_DOWN>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
