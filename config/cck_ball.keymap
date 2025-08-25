@@ -88,7 +88,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&msc_rotate SCRL_UP SCRL_DOWN>;
+                <&scroll_encoder>;
         };
     };
 };
