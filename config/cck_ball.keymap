@@ -34,14 +34,7 @@
 
         tap-ms = <100>;
     };
-
-msc_rotate: msc_rotate {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            label = "MSC_ROTATE";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
-        };
-
+    
     behaviors {
     };
 
@@ -106,7 +99,7 @@ msc_rotate: msc_rotate {
             >;
 
             sensor-bindings =
-                <&msc_rotate SCRL_UP SCRL_DOWN>,
+                <&scroll_encoder>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
